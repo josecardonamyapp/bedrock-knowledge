@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://i.pinimg.com/originals/30/52/d3/3052d3e0466ee9a38a585fbd3eaa4f31.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophia´s Assistant</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Polyfill Node globals for Amplify
+      window.global = window;
+      window.process = {
+        env: { DEBUG: undefined },
+      };
+      var exports = {};
+    </script>
+  </body>
+</html>
