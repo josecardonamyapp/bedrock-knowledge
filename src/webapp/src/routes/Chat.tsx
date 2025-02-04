@@ -22,6 +22,7 @@ import { useAuthenticator } from "@aws-amplify/ui-react";
 import { interact, QueryObject, RatingObject, postRating } from "@lib/api";
 import { Decodeuint8arr } from "@/lib/utils";
 import { messagesReducer } from "@/data/messagesReducer";
+import { userInfo } from "os";
 
 export type MessageObject = {
   id: string;
@@ -42,8 +43,7 @@ const mockMessages = true; // Begin with preloaded or initialMessages
 const initialMessages: MessageObject[] = [
   {
     id: "welcome", // "welcome" as id is checked to display/hide MessageActions for the first message
-    content: `Hola! 
-    Cómo puedo ayudarte el día de hoy?`,
+    content: `Hola`,
     message_type: "answer",
   },
 ];
@@ -59,8 +59,11 @@ export default function Chat() {
 
   const [isLoading, setIsLoading] = useState(false);
   const {
-    user: { username },
+    user: { username }
   } = useAuthenticator((context) => [context.user]);
+
+  initialMessages[0].content = `Hola ${username}
+  ¿En qué puedo ayudarte hoy?`;
 
   const actions: Record<string, any> = {
     sources: (msg: Record<string, any>, id: string) =>

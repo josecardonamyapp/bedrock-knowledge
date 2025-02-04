@@ -31,6 +31,7 @@ export default function MessageBubble({
   setMessageRating,
 }: MessageBubbleProps) {
   const { id, message_type, sources, status, content } = message;
+  console.log(message);
   // const [isTyping, setIsTyping] = useState(false); TODO: Implement typint animation and callback
   const isTyping = false; // Temp
 

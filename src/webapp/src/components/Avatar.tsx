@@ -39,7 +39,7 @@ export default function Avatar({ avatarType, size }: AvatarProps) {
         ${
           avatarType && avatarType === "bot"
             ? "bg-primary-600 dark:bg-primary-500 mr-2"
-            : "bg-secondary-500 text-secondary-200 dark:bg-secondary-400 dark:text-secondary-950 ml-2"
+            : "bg-blue-400 text-secondary-200 dark:bg-secondary-400 dark:text-secondary-950 ml-2"
         }`}
     >
       {avatarType === "user" && (

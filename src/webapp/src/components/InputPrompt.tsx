@@ -70,7 +70,7 @@ export default function InputPrompt({
         />
         <button
           type="submit"
-          className="absolute bottom-3 right-2.5 rounded-full bg-pink-600 px-4 py-2 text-sm font-medium text-pink-50 hover:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 disabled:bg-slate-500 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800 sm:text-base"
+          className="absolute bottom-3 right-2.5 rounded-full bg-sky-400 px-4 py-2 text-sm font-medium text-pink-50 hover:bg-sky-800 focus:outline-none focus:ring-4 focus:bg-sky-300 disabled:bg-slate-500 dark:bg-sky-500 dark:hover:bg-sky-500 dark:focus:bg-sky-700 sm:text-base"
           disabled={isLoading}
         >
           {isLoading ? (
@@ -95,9 +95,9 @@ export default function InputPrompt({
               ></path>
             </svg>
           ) : (
-            "Enviar"
+            "Realizar consulta"
           )}
-          <span className="sr-only">Enviar mensaje</span>
+          <span className="sr-only">Enviar </span>
         </button>
       </div>
     </form>
