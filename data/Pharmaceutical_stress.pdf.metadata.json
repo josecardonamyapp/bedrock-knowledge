@@ -1,0 +1,23 @@
+{
+    "metadataAttributes": {
+        "title": "Pharmaceutical Stress Testing: Predicting Drug Degradation",
+        "authors": "Steven W. Baertschi",
+        "contributors": "Dan W. Reynolds,Patrick J. Jansen,Karen M. Alsante,Bernard A. Olsen,Giovanni Boccardi,Steven L. Nail,Elisa Fasani,Angelo Albini,Donald B. Boyd,Graham Buckton,Simon Gaisford,Amy S. Antipas,Margaret S. Landis,Larry A. Larew,Mark A. Nussbaum,W. Kimmer Smit",
+        "keywords": "stress testing,drug stability,degradation pathways,pharmaceutical analysis,forced degradation,oxidation,photostability,mass balance,impurities,regulatory guidelines,ICH stability testing,hydrolytic degradation,analytical method validatio",
+        "description": "A comprehensive guide on pharmaceutical stress testing, covering predictive stability studies, analytical considerations, degradation pathways, and regulatory requirements. The book serves as a reference for scientists and regulatory professionals to assess the intrinsic stability of drug substances and products.",
+        "publication_date": "2005",
+        "publisher": "Taylor & Francis Group",
+        "isbn": "0-8247-4021-1, 978-0-8247-4021-4",
+        "categories": "Pharmaceutical Sciences,Drug Stability,Regulatory Compliance,Analytical Chemistry,Pharmaceutical Formulatio",
+        "language": "English",
+        "reference": "Library of Congress Cataloging-in-Publication Data available",
+        "mechanism_of_action": "Examines degradation pathways of pharmaceutical compounds under various stress conditions, including hydrolysis, oxidation, photostability, and thermal degradation. Provides analytical methods to identify and control impurities.",
+        "physicochemical_attributes": "Covers solid-state and solution-phase degradation,Impact of temperature and humidity,Influence of excipients on drug stability,Evaluation of oxidative susceptibility using radical initiators,Mass balance considerations in pharmaceutical stress testin",
+        "comparative_efficacy": "Discusses methodologies to predict and compare stability profiles of different pharmaceutical compounds under forced degradation conditions. Includes best practices for conducting stress testing studies in compliance with regulatory guidelines.",
+        "clinical_uses": "Primarily used as a reference for pharmaceutical development, regulatory submissions, and formulation stability assessments. Essential for pharmaceutical scientists involved in drug degradation studies.",
+        "analytical_methods": "HPLC with UV detection,Mass Spectrometry (LC-MS, GC-MS, EI-MS) ,NMR Spectroscopy,Microcalorimetry,Chromatographic techniques for impurity profiling",
+        "regulatory_context": "Aligns with International Conference on Harmonisation (ICH) guidelines for stability testing (Q1A, Q1B, Q3A, Q3B). Provides scientific and regulatory perspectives on forced degradation studies and impurity analysis.",
+        "formulation_considerations": "Role of excipient compatibility in stability,Impact of packaging materials on drug degradation,Optimization of drug formulations to enhance stability",
+        "stability_testing_conditions": "thermal_stress, Temperatures up to 70°C, analysis of Arrhenius kinetics ,humidity_stress, High and low humidity exposure to evaluate solid-state degradation ,oxidative_stress, Use of radical initiators and hydrogen peroxide exposure ,photostability_testing, UV and visible light exposure following ICH Q1B guidelines"
+    }
+}
